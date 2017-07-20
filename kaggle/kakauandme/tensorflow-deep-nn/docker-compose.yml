@@ -2,7 +2,7 @@ version: "2.1"
 
 services:
   note:
-    image: kaggle/kakauandme-tensorflow-deep-nn:201706261550
+    image: kaggle-kakauandme-tensorflow-deep-nn:20170626
     build: .
     ports:
       - 80:8888
