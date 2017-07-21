@@ -1,0 +1,12 @@
+version: "2.1"
+
+services:
+  note:
+    image: kaggle-ornew-dogs-vs-cats-redux:20170720
+    build: .
+    ports:
+      - 80:8888
+    volumes:
+      - .:/root/notebook
+    restart: always
+    container_name: note
