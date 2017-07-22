@@ -1,2 +1,6 @@
-test
-train
+test/
+train/
+cache/
+
+test.zip
+train.zip
